@@ -2,12 +2,19 @@
 size(500, 400);
 background(61, 155, 252);
 
+fill(#E38A2C);
+stroke(#AD1700);
+triangle(400,52,425,75,470,15);
+
+//metirite
+fill(#4D4C4C);
+stroke(#AD1700);
+ellipse(400, 75, 50, 50);
+
 //Sun
 stroke(246, 255, 0);
 fill(246, 255, 0);
 ellipse(150, 200, 75, 75);
-
-
 
 //Grass
 fill(74, 193, 59);
@@ -24,3 +31,28 @@ rect(350, 195, 30, 60);
 fill(0,0,0);
 stroke(0,0,0);
 ellipse(355.5, 225, 7, 7);
+
+fill(0,0,0);
+stroke(0,0,0);
+triangle(295, 175, 362.5, 150, 430, 175);
+
+
+fill(246,255,0);
+stroke(246,255,0);
+rect(150, 125, 2, 50);
+
+fill(246,255,0);
+stroke(246,255,0);
+rect(75, 192, 150, 2);
+
+rotate(50);
+rect(90, 158, 2, 50);
+
+rotate(75);
+rect(-17, 175, 2, 50);
+
+rotate(80);
+rect(-240, 5, 2, 50);
+
+rotate(155);
+rect(-500, -500, 2, 50);
